@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cicleci/ruby:2.4.1
+      - image: cicleci/ruby:2.6.6
     steps:
       - checkout
       - tun: each "A first hello"
