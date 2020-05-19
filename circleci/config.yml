@@ -5,4 +5,4 @@ jobs:
       - image: cicleci/ruby:2.6.6
     steps:
       - checkout
-      - tun: each "A first hello"
+      - run: each "A first hello"
